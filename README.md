@@ -16,7 +16,6 @@ To access this project on your local files, you can clone it using these steps
 ### Technologies Used
 1. HTML
 1. CSS
-1. JavaScript
 1. Git
 ### Live Site
 View [live](https://jwy951.github.io/Portfolio-Landing-Page/)
