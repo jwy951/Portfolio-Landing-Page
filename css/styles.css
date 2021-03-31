@@ -122,7 +122,6 @@
 .tools{
     background-color: thistle;
      font-size: 60px;
-     background: #da22ff;
      list-style: none;
      /* fallback for old browsers */
      background: -webkit-linear-gradient(to right,
@@ -132,4 +131,19 @@
      background: linear-gradient(to right,
          #8f0eff,
          #da22ff);
+}
+@media screen and (max-width: 768px) and (min-width: 620px) {
+    #navbar__logo {
+        font-size: 35px;
+        color: gold;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 620px) {
+    .hero__heading {
+        font-size: 60px;
+        color: #ed1a52;
+    }
+    .hero__description {
+        font-size: 40px;
+    }
 }
