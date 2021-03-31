@@ -5,8 +5,13 @@
     font-family: Kumbh Sans, sans-serif;
     scroll-behavior: smooth;
 }
+#navbar__logo{
+    color: turquoise;
+    font-size: xxx-large;
+    
+}
 .navbar {
-    background: #131313;
+    background: #553030;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -110,5 +115,14 @@
 }
 .tools{
     background-color: thistle;
-    
+     font-size: 60px;
+     background: #da22ff;
+     /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right,
+         #9114ff,
+         #da22ff);
+     /* chrome 10-25, safari 5.16 */
+     background: linear-gradient(to right,
+         #8f0eff,
+         #da22ff);
 }
