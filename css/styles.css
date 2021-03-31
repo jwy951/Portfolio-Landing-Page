@@ -50,7 +50,7 @@
 }
 /* hero section */
 .hero {
-    background: #000000;
+    background: #278d66;
     background: linear-gradient(tonrght, #161616, #000000);
 }
 .hero__container {
@@ -72,15 +72,21 @@
 }
 
 .hero__heading span {
-    background: #ee0979;
+    background: #df8807e3;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right,
-            #ff6a00,
+            hsl(25, 100%, 50%),
             #ee0979);
+}
+.gallery {
+    border: 4px solid #df8807e3;
+    float: right;
+    flex-direction: column;
+    text-align: right;
 }
 /* About us */
 .main {
-    background-color: #131313;
+    background-color: #67b358;
     padding: 10rem;
 }
 
@@ -117,6 +123,7 @@
     background-color: thistle;
      font-size: 60px;
      background: #da22ff;
+     list-style: none;
      /* fallback for old browsers */
      background: -webkit-linear-gradient(to right,
          #9114ff,
