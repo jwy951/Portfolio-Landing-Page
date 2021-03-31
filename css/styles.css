@@ -73,3 +73,38 @@
             #ff6a00,
             #ee0979);
 }
+/* About us */
+.main {
+    background-color: #131313;
+    padding: 10rem;
+}
+
+.main__container {
+    display: grid;
+    grid-template: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.main__content {
+    color: #fff;
+    width: 800px;
+}
+
+.main__container h1 {
+    font-size: 2rem;
+    background-color: #fe3b6f;
+    background-image: linear-gradient(to top),
+        #a0a0a0 0%,
+        #ed1a52 100%;
+}
+.hero__description{
+    background-color: white;
+    font-size: xx-large;
+}
