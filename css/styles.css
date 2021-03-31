@@ -26,3 +26,20 @@
     margin: 0 auto;
     padding: 0 50px;
 }
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navbar__item {
+    height: 80px;
+}
+.navbar__links {
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+}
