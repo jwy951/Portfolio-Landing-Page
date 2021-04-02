@@ -105,31 +105,36 @@
 
 .main__content {
     color: #fff;
-    width: 800px;
-
+    width: 1300px;
+    font-size:x-large;
+    
+}
+.main__content h1 {
+    text-align: center;
 }
 .main_point1 h2{
     color: #000;
 }
 .main_point1 {
-    width: 400px;
+    width: 750px;
     border: 20px solid green;
     padding: 50px;
     padding-top: 10PX;
     margin: 18px;
     float: right;
-    height: 280PX;
+    height: 300PX;
 }
 .main_point2 h2{
     color: #000;
 }
 .main_point2 {
-    width: 350px;
-    height: 280PX;
+    width: 450px;
+    height: 300PX;
     border: 20px solid green;
     padding: 50px;
     padding-top: 10PX;
     margin: 20px;
+    font-size:x-large;
 }
 
 .main__container h1 {
