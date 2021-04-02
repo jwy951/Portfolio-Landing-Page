@@ -107,24 +107,29 @@
 .main__content {
     color: #fff;
     width: 800px;
-    float: left;
+
 }
 .main_point1 h2{
     color: #000;
 }
 .main_point1 {
     width: 400px;
-    border: 5px solid green;
+    border: 20px solid green;
     padding: 50px;
-    margin: 20px;
+    padding-top: 10PX;
+    margin: 18px;
+    float: right;
+    height: 280PX;
 }
 .main_point2 h2{
     color: #000;
 }
 .main_point2 {
-    width: 400px;
-    border: 5px solid green;
+    width: 350px;
+    height: 280PX;
+    border: 20px solid green;
     padding: 50px;
+    padding-top: 10PX;
     margin: 20px;
 }
 
