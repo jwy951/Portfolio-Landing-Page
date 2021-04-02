@@ -93,11 +93,10 @@
 
 .main__container {
     display: grid;
-    grid-template: 1fr 1fr;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    height: 90%;
+    height: 20%;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
